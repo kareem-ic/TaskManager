@@ -2,15 +2,19 @@ Task Manager App
 
 A simple task management application built with React Native, designed to help users organize their tasks with ease. Users can add tasks with brief descriptions, mark them as complete, delete tasks once they're no longer needed, and filter between All / Active / Done views.
 
+
+Setup & Run
+
+1. Clone  `git clone https://github.com/kareem-ic/TaskManager.git`
+2. Install  `cd TaskManager` → `npm install` |
+3. Start  `npx expo start` Scan the QR code with Expo Go or Press **i** (iOS) to open a simulator 
+
 Features:
 Add Task: Users can add a new task with a title and brief description.
 Mark Task as Complete: Tap on a task to mark it as complete. Completed tasks will appear visually distinct from incomplete ones.
 Delete Task: Easily remove a task from the list by pressing the "Delete" button.
 Filter Tabs – One-tap switch between All, Active (incomplete), and Done (completed) tasks.
 Modern UI – Dark background, accent color, floating action button, and responsive layout.
-
-
-
 
 
 App Structure
@@ -30,3 +34,11 @@ Deleting a Task:
 Press the "Delete" button next to a task to remove it from the list.
 Filtering Tasks
 Tap All, Active, or Done at the top of the list to view only tasks in that category.
+
+Third-party libraries
+
+Package & Why it’s used 
+**expo** | Cross-platform runtime & developer tools 
+**react-native** | Core UI framework 
+**@expo/vector-icons** | Provides the Ionicons **➕** and trash-can icons 
+**expo‐status‐bar** (bundled) | Consistent status-bar styling across iOS & Android 
